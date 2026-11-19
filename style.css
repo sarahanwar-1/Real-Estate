@@ -58,7 +58,7 @@ a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #95c
 .editorial-card p{font-size:14px;line-height:1.75;max-width:340px}
 .card-text-link{display:inline-flex;gap:25px;align-items:center;font-size:12px;font-weight:700;border-bottom:1px solid currentColor;padding-bottom:9px;margin-top:25px}
 .editorial-buy{color:#fff;background:#233544}
-.editorial-photo{position:absolute;inset:0;z-index:-2;background:url('assets/hero-villa.webp') 48% 50%/cover no-repeat;transition:transform .7s}
+.editorial-photo{position:absolute;inset:0;z-index:-2;background:url('hero-villa.webp') 48% 50%/cover no-repeat;transition:transform .7s}
 .editorial-buy:hover .editorial-photo{transform:scale(1.05)}
 .editorial-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,16,26,.32) 0%,rgba(5,26,38,.10) 30%,rgba(1,13,25,.9) 100%)}
 .editorial-rent{background:#dde5df;color:#1d3742}
@@ -129,15 +129,15 @@ a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #95c
 :focus-visible{outline:3px solid #75d1eb!important;outline-offset:3px}
 [hidden]{display:none!important}
 section[id],div[id]{scroll-margin-top:24px}
-.principle-place{background:linear-gradient(180deg,rgba(7,27,37,.39) 0%,rgba(3,21,29,.91) 100%),url('assets/palms-villa.webp') center/cover}
-.principle-people{background:linear-gradient(180deg,rgba(7,27,37,.38),rgba(3,21,29,.94)),url('assets/waterfront-living.webp') center/cover}
-.principle-future{background:linear-gradient(180deg,rgba(7,27,37,.4),rgba(3,21,29,.91)),url('assets/nomad.webp') center/cover}
+.principle-place{background:linear-gradient(180deg,rgba(7,27,37,.39) 0%,rgba(3,21,29,.91) 100%),url('palms-villa.webp') center/cover}
+.principle-people{background:linear-gradient(180deg,rgba(7,27,37,.38),rgba(3,21,29,.94)),url('waterfront-living.webp') center/cover}
+.principle-future{background:linear-gradient(180deg,rgba(7,27,37,.4),rgba(3,21,29,.91)),url('nomad.webp') center/cover}
 .principle-card:after{display:none}
 .principle-card{color:#fff;text-shadow:0 1px 4px #0007}
 .principle-index,.principle-card p,.principle-bottom{color:white}
-.editorial-rent{background:linear-gradient(180deg,#1b324045,#102638d9),url('assets/onebay.webp') center/cover;color:white}
+.editorial-rent{background:linear-gradient(180deg,#1b324045,#102638d9),url('onebay.webp') center/cover;color:white}
 .editorial-rent p{color:white}
-.editorial-sell{background:linear-gradient(95deg,#081c2be8,#0a2734ac),url('assets/villa-yacht.webp') 60%/cover;color:#fff}
+.editorial-sell{background:linear-gradient(95deg,#081c2be8,#0a2734ac),url('villa-yacht.webp') 60%/cover;color:#fff}
 .new-section-heading{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:38px}
 .new-section-heading h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(37px,4.3vw,67px);font-weight:500;letter-spacing:-.068em;line-height:1.13;margin-top:18px}
 .new-section-heading h2 em,.spotlight-details h3 em{font-family:'Instrument Serif',Georgia,serif;font-weight:400;letter-spacing:-.03em}
@@ -247,7 +247,7 @@ body{background:#f2f1ec;color:#142c36}
 .contact-heading h2 em{color:#537265}
 .contact-heading>p{max-width:305px;line-height:1.8;color:#495e60;font-size:14px;padding-bottom:8px}
 .contact-layout{display:grid;grid-template-columns:1.04fr .96fr;gap:0;align-items:stretch;min-height:680px;box-shadow:0 24px 70px rgba(23,45,52,.10);border:1px solid rgba(50,75,70,.08)}
-.contact-image-panel{position:relative;min-height:670px;background:#3b5d65 url('assets/waterfront-living.webp') center/cover no-repeat;display:flex;flex-direction:column;justify-content:space-between;color:#fff;padding:35px;isolation:isolate}
+.contact-image-panel{position:relative;min-height:670px;background:#3b5d65 url('waterfront-living.webp') center/cover no-repeat;display:flex;flex-direction:column;justify-content:space-between;color:#fff;padding:35px;isolation:isolate}
 .contact-image-panel:before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,31,39,.48),transparent 32%,transparent 45%,rgba(6,22,30,.77));z-index:-1}
 .contact-image-top{display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:10px;font-weight:800;letter-spacing:.13em}
 .contact-image-bottom{display:flex;flex-direction:column;align-items:flex-start;gap:5px}
@@ -323,15 +323,15 @@ body.haven-editorial{background: var(--haven-bg); color:var(--haven-ink);}
 .haven-editorial .overline,.haven-editorial .glance-eyebrow{font-size:.69rem;letter-spacing:.23em;font-weight:800;color:#42645a;}
 .haven-editorial .section-top>p,.haven-editorial .new-section-heading>p{color:#3a504b;font-size:clamp(.95rem,1vw,1.12rem);line-height:1.75;}
 .haven-editorial .editorial-card,.haven-editorial .principle-card,.haven-editorial .development-lead,.haven-editorial .development-tile{border-radius:3px;}
-.haven-editorial .editorial-buy .editorial-photo{background-image:url('assets/villa-yacht.webp');background-size:cover;background-position:center;}
-.haven-editorial .editorial-rent{background:linear-gradient(180deg,#14241c05 0%,#071c19cc 100%),url('assets/onebay.webp') center/cover;}
-.haven-editorial .editorial-sell{background:linear-gradient(90deg,rgba(9,27,29,.90),rgba(9,27,29,.37)),url('assets/palms-villa.webp') center/cover;}
+.haven-editorial .editorial-buy .editorial-photo{background-image:url('villa-yacht.webp');background-size:cover;background-position:center;}
+.haven-editorial .editorial-rent{background:linear-gradient(180deg,#14241c05 0%,#071c19cc 100%),url('onebay.webp') center/cover;}
+.haven-editorial .editorial-sell{background:linear-gradient(90deg,rgba(9,27,29,.90),rgba(9,27,29,.37)),url('palms-villa.webp') center/cover;}
 .haven-editorial .editorial-card h3,.haven-editorial .principle-card h3{font-family:'Plus Jakarta Sans',Arial,sans-serif;letter-spacing:-.075em;font-weight:500;}
 .haven-editorial .editorial-card h3 em,.haven-editorial .principle-card h3 em{font-family:'Instrument Serif',Georgia,serif;font-weight:400;}
 .haven-editorial .editorial-card p,.haven-editorial .editorial-card .card-text-link{font-weight:600;}
-.haven-editorial .principle-place{background:linear-gradient(180deg,#17221c25,#071c19e9),url('assets/hero-villa.webp') center/cover;}
-.haven-editorial .principle-people{background:linear-gradient(180deg,#17221c25,#071c19e9),url('assets/ocean-living.webp') center/cover;}
-.haven-editorial .principle-future{background:linear-gradient(180deg,#17221c25,#071c19e9),url('assets/nomad.webp') center/cover;}
+.haven-editorial .principle-place{background:linear-gradient(180deg,#17221c25,#071c19e9),url('hero-villa.webp') center/cover;}
+.haven-editorial .principle-people{background:linear-gradient(180deg,#17221c25,#071c19e9),url('ocean-living.webp') center/cover;}
+.haven-editorial .principle-future{background:linear-gradient(180deg,#17221c25,#071c19e9),url('nomad.webp') center/cover;}
 .haven-editorial .principle-card{min-height:510px;border:1px solid rgba(247,247,242,.18);}
 .haven-editorial .principle-card:before{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 20%,#051d1a66);}
 .haven-editorial .principle-card>*{position:relative;z-index:1;}
@@ -349,7 +349,7 @@ body.haven-editorial{background: var(--haven-bg); color:var(--haven-ink);}
 .haven-editorial .journal-card h3{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2rem,3.5vw,3.5rem);font-weight:400;letter-spacing:-.035em;line-height:1.05;}
 .haven-editorial .contact-section{background:#dde5dc;color:#1c352e;}
 .haven-editorial .contact-layout{box-shadow:0 22px 50px #0b372015;}
-.haven-editorial .contact-image-panel{background-image:url('assets/waterfront-living.webp');}
+.haven-editorial .contact-image-panel{background-image:url('waterfront-living.webp');}
 .haven-editorial .contact-form-wrap{background:#fbfaf6;}
 .haven-editorial .contact-form input,.haven-editorial .contact-form select,.haven-editorial .contact-form textarea{background:#fff;color:#17342e;border-color:#99aca0;}
 .haven-editorial .contact-heading h2 em,.haven-editorial .contact-form-wrap h3 em{color:#426950;}
@@ -532,7 +532,7 @@ body::before {
 }
 .haven-editorial .hero-showcase-image {
   position: absolute; inset: 0; z-index: -2;
-  background: url('assets/palms-villa.webp') center 55% / cover no-repeat;
+  background: url('palms-villa.webp') center 55% / cover no-repeat;
   animation: haven-image-enter 1.5s ease-out both;
 }
 .haven-editorial .hero-showcase-wash {
@@ -661,7 +661,7 @@ body::before {
 .haven-editorial .sell-section .action-text { color: #fff; }
 .haven-editorial .sell-photo {
   min-height: clamp(280px, 62svh, 640px); border-radius: 2px;
-  background: linear-gradient(180deg, rgba(7, 28, 25, .05), rgba(7, 28, 25, .45)), url('assets/market.webp') center / cover no-repeat;
+  background: linear-gradient(180deg, rgba(7, 28, 25, .05), rgba(7, 28, 25, .45)), url('market.webp') center / cover no-repeat;
   box-shadow: 0 24px 60px rgba(0, 0, 0, .25);
 }
 .haven-editorial .agent-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
